@@ -1,0 +1,13 @@
+#summary Description of multiple cluster volatility model in pyvol.
+
+= Introduction =
+
+This document describes the initial model for pyvol is a multiple cluster volatility model in {{{pyvol.sims.MultiClusterSimulator}}}. The purpose of this model is to try to capture an effect known as volatility clustering. As noted by Mandelbrot (1963), "large changes tend to be followed by large changes, of either sign, and small changes tend to be followed by small changes."
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
