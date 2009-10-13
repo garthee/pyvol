@@ -1,4 +1,5 @@
 #summary Discussion of how to measure performance of volatility estimation models.
+#labels Featured
 
 = Introduction =
 
