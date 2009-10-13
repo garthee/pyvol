@@ -1,4 +1,5 @@
 #summary Description of multiple cluster volatility model in pyvol.
+#labels Featured
 
 = Introduction =
 
@@ -23,3 +24,7 @@ Consequently, we consider a multiscale model illustrated below. At each level, w
 http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/MultiClusterModel.png 
 
 By setting the alpha, beta, and omega parameters which control how the previous returns, previous variance, and previous higher level contribution are weighted, it is possible to recover a variety of simpler models such as constant variance, small GARCH-like models, etc. Furthermore, by setting the parameters appropriately, one can induce dependence across weeks, months, quarters, or years with a relatively small number of states. Since the previous figures seem to indicate that volatility clustering happens simultaneously at all these scales, this may be valuable.
+
+= Contest Usage =
+
+Since the multi cluster model produces vol clustering at a variety of scales, it provides the opportunity to explore the effectiveness of a wide variety of estimation algorithms and is thus useful in contents. The contest organizer can choose a reasonable set of parameters and generate some example data to provide to submitters. Submitters can then explore a range of estimation algorithms from simple ideas that only focus on daily returns to more sophisticated algorithms which use tools from graphical models to understand effects at different scales.
