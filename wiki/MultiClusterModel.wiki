@@ -6,10 +6,10 @@ This document describes the initial model for pyvol is a multiple cluster volati
 
 The figures below show the autocorrelations of log S&P500 excess *squared* returns on the time scales of days, weeks, months, years. As the figures show, the last day/week/month does a fairly good job of predicting whether the current day/week/month will have large squared returns. Note: this doesn't mean that you can predict the direction of the returns, just the magnitude (i.e., you may know it's likely to be a big day just not whether it is up or down).
 
-[http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallDailyVolClusters.png daily]
+http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallDailyVolClusters.png
 
-[http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallWeeklyVolClusters.png weekly]
+http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallWeeklyVolClusters.png 
 
-[http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallMonthlyVolClusters.png daily]
+http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallMonthlyVolClusters.png 
 
-[http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallYearlyVolClusters.png daily]
+http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallYearlyVolClusters.png 
