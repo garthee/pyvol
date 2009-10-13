@@ -14,7 +14,10 @@ http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallMonthlyVolClu
 
 http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/SmallYearlyVolClusters.png 
 
-= Details =
+= The Multi Cluster Model =
 
-Understanding, modeling, and capturing this volatility clustering effect seems important in understanding markets and that is the goal of the multi-cluster model.
+Understanding, modeling, and capturing this volatility clustering effect seems important in understanding markets. Previous work initiated by Engle and Bollerslev have modelled volatility clustering with the ARCH, GARCH, and further variations of auto-regressive volatility models. While these models do capture vol clustering effects, using them to on longer time scales generally invovles estimating a very large number of coefficients and/or tracking a very large number of states.
 
+Consequently, we consider a multiscale model illustrated below. At each level, we track a variance term which is effected by the previous variance at that level, the previous returns from the finer level and the variance from the higher level. Thus, the variance for month i is a contribution of the previous variance at that level (the variance for month i-1), the variance for year i, and the previous month's return. This continues all the way down to the realized returns.
+
+http://pyvol.googlecode.com/svn/wiki/MultiClusterModel.attach/MultiClusterModel.png 
