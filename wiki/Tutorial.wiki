@@ -11,7 +11,7 @@ This document provides walks you through how to install and use pyvol.
 
 FIXME
 
-= Testing =
+= Using =
 
 Once you have downloaded pyvol, you can test the existing best estimator by typing "python setup.py test" in the main pyvol directory. This will test all the source code and at the end, show the performance of the current "best estimator"
 
@@ -34,8 +34,8 @@ daily     : ret = 0.026, vol = 0.250, sqCorrs = 1.000, 0.422, 0.276
 targErr= 0.02478, spreadErr= 144.79175, naiveError= 7.86425, minPossible=2.05384
 }}}
 
-    If you want to do more detailed work, you can walk through the
-    steps of generating the simulation yourself as shown below:
+If you want to do more detailed work, you can walk through the
+steps of generating the simulation yourself as shown below:
 
 {{{
 >>> import random; random.seed(64) # make things repeatable    
@@ -57,14 +57,14 @@ weekly    : ret = 0.141, vol = 0.262, sqCorrs = 1.000, 0.136, 0.308
 daily     : ret = 0.144, vol = 0.272, sqCorrs = 1.000, 0.439, 0.355
 }}}
 
-         If you have widnows and the windows python tools installed
-         you can do the following to display the data in Excel:
+If you have windows and the windows python tools installed
+you can do the following to display the data in Excel:
 {{{
 >>> from pyvol.tseries import ExcelTools; ExcelTools.TimeSeqToExcel(results[1])
 }}}
 
-          If not, you can just write the output to a file to investigate
-          or look directly at {{{results[1].data}}}:
+If not, you can just write the output to a file to investigate
+or look directly at {{{results[1].data}}}:
 {{{
 >>> import tempfile, os
 >>> filename = tempfile.mktemp(suffix='_pyvol_sim.csv')
