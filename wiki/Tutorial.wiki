@@ -17,7 +17,7 @@ If you really want to install pyvol, just do "python setup.py install" after you
 
 Once you have downloaded pyvol, you can test the existing best estimator by typing "python setup.py test" in the main pyvol directory. This will test all the source code and at the end, show the performance of the current "best estimator"
 
-If you want to add your own estimators, you can create a file called MyVolEst.py and either put it outside the pyvol source tree or put it into pyvol/experimental if you are planning on submitting your estimator in a GenericContest.
+If you want to add your own estimators, you can create a file called {{{MyVolEst.py}}} and either put it outside the pyvol source tree or put it into pyvol/experimental if you are planning on submitting your estimator in a GenericContest.
 
 Once you have created your own estimator, you can test it by starting the python interpreter and doing something like the following:
 {{{
