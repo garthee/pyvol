@@ -1,5 +1,5 @@
 #summary Describes how to use pyvol in a generic class project or contest.
-#labels Phase-Implementation
+#labels Featured
 
 = Introduction =
 
