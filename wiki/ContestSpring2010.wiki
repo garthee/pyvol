@@ -2,7 +2,7 @@
 
 = Introduction =
 
-This article describes the spring 2010 volatility challenge. Selected candidates have been asked to demonstrate their skills by attempting to build better volatility estimators. All candidates should download the python source code at FIXME and follow the instructions below to build and submit their estimators by *6 AM on Monday, March 8th, 2010*. Late submissions may or may not be reviewed depending on how busy the contest organizers are.
+This article describes the spring 2010 volatility challenge. Selected candidates have been asked to demonstrate their skills by attempting to build better volatility estimators. All candidates should download the python [http://pyvol.googlecode.com/files/pyvol-1.0.zip source code] and follow the instructions below to build and submit their estimators by *6 AM on Monday, March 8th, 2010*. Late submissions may or may not be reviewed depending on how busy the contest organizers are.
 
 = Details =
 
