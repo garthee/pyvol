@@ -35,7 +35,7 @@ python setup.py test
 {{{
 python setup.py test -m pyvol.testing._test_EvalBest
 }}}
- 1. To submit your estimator as an entry in the contest, 
+ 1. To submit your estimator as an entry in the contest, follow the instructions in the section on [GenericContest#Submitting_Your_Estimators Submitting Your Estimators].
 
 == Submitting Your Estimators ==
 
