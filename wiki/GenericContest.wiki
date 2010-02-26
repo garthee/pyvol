@@ -28,7 +28,7 @@ To develop your own estimators:
 {{{
 python setup.py test
 }}}
-to test your edits.
+    to test your edits.
    * This will test all the code and at the end, do a test of the estimator in {{{pyvol.est.BestEstimator.MakeEstimator}}}.
    * If you set {{{MakeEstimator}}} properly, this will show the performance of your estimator.
    * If you just want to test your estimator (which is faster than testing all the code), you can do 
