@@ -6,9 +6,9 @@ This article describes the spring 2010 volatility challenge. Selected candidates
 
 = Details =
 
-Your goal is to produce an interesting volatility estimator and describe why it is effective. The pyvol package provides some simple volatility estimators which you can use as examples to start from. See the [Tutorial Tutorial] article for details on how to use pyvol. See the article on PerformanceMeasurement for a brief discussion of some ways to decide if a volatility estimator is good.
+Your goal is to produce an interesting volatility estimator and describe why it is effective. The pyvol package provides some simple volatility estimators which you can use as examples to start from. See the [Tutorial Tutorial] article for details on how to use pyvol. See the article on PerformanceMeasurement for a brief discussion of some ways to decide if a volatility estimator is good. As discussed there, achieving a good vol targetting error should be fairly easy so we will mostly be interested in submissions which minimize the vol spread error while also having a reasonably small vol targeting error (e.g., say less than .01). 
 
-To develop (or modify) an existing estimator, follow the instructions for the article on GenericContest.
+To develop (or modify) an existing estimator, follow the instructions for the article on GenericContest. Note that we will use *different random seeds* than the ones provided in the software you download, so you should strive to develop a technique which makes sense and does well in general as opposed to one which does well for a specific random seed. We may also try solutions on samples of real asset returns.
 
 = Submission =
 
