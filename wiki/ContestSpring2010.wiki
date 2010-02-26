@@ -1,0 +1,9 @@
+#summary Details for the Spring 2010 volatility challenege
+
+= Introduction =
+
+This article describes the spring 2010 volatility challenge. Selected candidates have been asked to demonstrate their skills by attempting to build better volatility estimators. All candidates should download the python source code at FIXME and follow the instructions below to build and submit their estimators by *6 AM on Monday, March 8th, 2010*. Late submissions may or may not be reviewed depending on how busy the contest organizers are.
+
+= Details =
+
+Your goal is to produce an interesting volatility estimator and describe why it is effective. The pyvol package provides some simple volatility estimators which you can use as examples to start from. See the [Tutorial Tutorial] article for details on how to use pyvol. See the article on PerformanceMeasurement for a brief discussion of some ways to decide if a volatility estimator is good.
