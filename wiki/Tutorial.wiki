@@ -19,7 +19,7 @@ Once you have downloaded pyvol, you can test the existing best estimator by typi
 
 If you want to add your own estimators, you can create a file called {{{MyVolEst.py}}} and either put it outside the pyvol source tree or put it into pyvol/experimental if you are planning on submitting your estimator in a GenericContest.
 
-Once you have created your own estimator, you can test it by starting the python interpreter and doing something like the following:
+Once you have created your own estimator, you can test it by starting the python interpreter and doing something like the following: (note you may need to SetYourPath properly first).
 {{{
 >>> import random, datetime
 >>> from pyvol.experimental import ExampleEstimators # or import your stuff
@@ -37,7 +37,7 @@ targErr= 0.02478, spreadErr= 144.79175, naiveError= 7.86425, minPossible=2.05384
 }}}
 
 If you want to do more detailed work, you can walk through the
-steps of generating the simulation yourself as shown below:
+steps of generating the simulation yourself as shown below (don't forget to make sure you SetYourPath):
 
 {{{
 >>> import random; random.seed(64) # make things repeatable    
