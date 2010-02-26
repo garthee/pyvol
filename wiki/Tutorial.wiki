@@ -11,7 +11,17 @@ This document provides walks you through how to install and use pyvol.
 
 You don't really need to install pyvol. You can just download the latest source distribution from http://code.google.com/p/pyvol/downloads/list, unzip, and work directly with that. This makes it easier to package up your code and submit to a GenericContest.
 
-If you really want to install pyvol, just do "python setup.py install" after you unzip.
+If you really want to install pyvol, just do "python setup.py install" after you unzip. If you do install pyvol, make sure to either do further edits on the installed files or be careful about setting your paths appropriately.
+
+== Set PYTHONPATH properly ==
+
+If you do not install pyvol but instead want to edit it or develop your own estimators, you will need to tell python where pyvol lives. The simplest way to do this is to edit the PYTHONPATH environment variable on your system to point to the directory where pyvol lives.
+
+If you are unfamiliar with environment variables, an alternative is to do the following
+{{{
+>>> import sys; sys.path.append('<path_to>/pyvol'
+}}}
+to include the proper pyvol directories when you try the python examples below.
 
 = Using =
 
