@@ -12,4 +12,4 @@ To develop (or modify) an existing estimator, follow the instructions for the ar
 
 = Submission =
 
-Your submission should be a zip file produced by "python setup.py dist" as discussed in GenericContest#Submitting_Your_Estimators. The zip file should include your estimator in the {{{experimental}}} directory and should have {{{pyvol.experimental.BestEstimator.MakeEstimator}}} set to produce a version of your estimator. Email the zip file to 'pyvoler+contest@gmail.com'.
+Your submission should be a zip file produced by "python setup.py dist" as discussed in [GenericContest#Submitting_Your_Estimators]. The zip file should include your estimator in the {{{experimental}}} directory and should have {{{pyvol.experimental.BestEstimator.MakeEstimator}}} set to produce a version of your estimator. Email the zip file to *pyvoler+contest@gmail.com*.
