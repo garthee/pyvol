@@ -7,3 +7,9 @@ This article describes the spring 2010 volatility challenge. Selected candidates
 = Details =
 
 Your goal is to produce an interesting volatility estimator and describe why it is effective. The pyvol package provides some simple volatility estimators which you can use as examples to start from. See the [Tutorial Tutorial] article for details on how to use pyvol. See the article on PerformanceMeasurement for a brief discussion of some ways to decide if a volatility estimator is good.
+
+To develop (or modify) an existing estimator, follow the instructions for the article on GenericContest.
+
+= Submission =
+
+Your submission should be a zip file produced by "python setup.py dist" as discussed in GenericContest#Submitting_Your_Estimators. The zip file should include your estimator in the {{{experimental}}} directory and should have {{{pyvol.experimental.BestEstimator.MakeEstimator}}} set to produce a version of your estimator. Email the zip file to 'pyvoler+contest@gmail.com'.
