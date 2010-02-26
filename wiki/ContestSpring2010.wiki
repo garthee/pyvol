@@ -6,7 +6,7 @@ This article describes the spring 2010 volatility challenge. Selected candidates
 
 = Details =
 
-Your goal is to produce an interesting volatility estimator and describe why it is effective. The pyvol package provides some simple volatility estimators which you can use as examples to start from. See the [Tutorial Tutorial] article for details on how to use pyvol. If you are not familiar with programming in python, you may find the tutorial at
+Your goal is to produce an interesting volatility estimator and describe why it is effective. The pyvol package provides some simple volatility estimators which you can use as examples to start from. See the [Tutorial Tutorial] article for details on how to use pyvol. If you are not familiar with programming in python, you may find the python tutorial at
 http://docs.python.org/tutorial/ useful for getting started.
 
 See the article on PerformanceMeasurement for a brief discussion of some ways to decide if a volatility estimator is good. As discussed there, achieving a good vol targetting error should be fairly easy so we will mostly be interested in submissions which minimize the vol spread error while also having a reasonably small vol targeting error (e.g., say less than .01). 
