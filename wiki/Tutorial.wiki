@@ -47,7 +47,7 @@ targErr= 0.02478, spreadErr= 144.79175, naiveError= 7.86425, minPossible=2.05384
 }}}
 
 If you want to do more detailed work, you can walk through the
-steps of generating the simulation yourself as shown below (don't forget to make sure you SetYourPath):
+steps of generating the simulation yourself as shown below (don't forget to make sure you [http://code.google.com/p/pyvol/wiki/Tutorial#Set_PYTHONPATH_properly set your path]):
 
 {{{
 >>> import random; random.seed(64) # make things repeatable    
