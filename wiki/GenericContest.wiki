@@ -27,6 +27,7 @@ To develop your own estimators:
  1. In the main pyvol directory, do "python setup.py test" to test your edits.
    * This will test all the code and at the end, do a test of the estimator in {{{pyvol.est.BestEstimator.MakeEstimator}}}.
    * If you set {{{MakeEstimator}}} properly, this will show the performance of your estimator.
+   * If you just want to test your estimator (which is faster than testing all the code), you can do "python setup.py test -m pyvol.testing._test_EvalBest".
  1. To submit your estimator as an entry in the contest, 
 
 == Submitting Your Estimators ==
