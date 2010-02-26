@@ -19,7 +19,7 @@ If you do not install pyvol but instead want to edit it or develop your own esti
 
 If you are unfamiliar with environment variables, an alternative is to do the following
 {{{
->>> import sys; sys.path.append('<path_to>/pyvol'
+>>> import sys; sys.path.append('<path_to>/pyvol')
 }}}
 to include the proper pyvol directories when you try the python examples below.
 
@@ -29,7 +29,7 @@ Once you have downloaded pyvol, you can test the existing best estimator by typi
 
 If you want to add your own estimators, you can create a file called {{{MyVolEst.py}}} and either put it outside the pyvol source tree or put it into pyvol/experimental if you are planning on submitting your estimator in a GenericContest.
 
-Once you have created your own estimator, you can test it by starting the python interpreter and doing something like the following: (note you may need to SetYourPath properly first).
+Once you have created your own estimator, you can test it by starting the python interpreter and doing something like the following: (note you may need to [wiki Tutorial#Set_PYTHONPATH_properly set your path] properly first).
 {{{
 >>> import random, datetime
 >>> from pyvol.experimental import ExampleEstimators # or import your stuff
